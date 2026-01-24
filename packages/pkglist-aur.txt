@@ -1,0 +1,5 @@
+clipse
+laser-git
+yay
+yay-debug
+zen-browser-bin
