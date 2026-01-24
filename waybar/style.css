@@ -1,0 +1,36 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "Departure Mono";
+    font-size: 20px;
+    font-weight: normal;
+    min-height: 0;
+}
+
+window#waybar{
+  background: transparent;
+}
+
+#workspaces {
+
+}
+
+#workspaces button.active {
+  border-bottom: 2px solid #fff;
+}
+
+#window{
+
+}
+#battery{
+  padding: 0px 10px 0px 10px;
+  font-family: "Departure Mono";
+}
+
+#network{
+  padding: 0px 10px 0px 10px;
+}
+
+#bluetooth{
+  padding: 0px 10px 0px 10px;
+}

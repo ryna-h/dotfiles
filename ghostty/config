@@ -1,0 +1,10 @@
+# ryna Ghostty config
+# ==========================
+title = "Ghostty"
+
+confirm-close-surface = false
+
+theme = Atom One Dark
+
+font-family = "Departure Mono"
+font-size = 14
