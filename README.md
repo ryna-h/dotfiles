@@ -7,4 +7,4 @@ Preferred font is "Departure Mono" found here https://departuremono.com/
 
 TODO: Trim nvim to be minimal
 
-TODO: setup dynamic pathing for hyprpaper also possible a bash script to change.
+User will need to alter wallpaper path to preferred wallpaper at dotfiles/hypr/hyprpaper.conf
