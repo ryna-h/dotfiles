@@ -20,6 +20,7 @@ if [[ -z "$input" || "$input" == "Y" || "$input" == "y" ]]; then
     name="$(basename "$src")"
     [[ "$name" == "packages" ]] && continue
     [[ "$name" == ".git" ]] && continue
+    [[ "$name" == "wallpapers" ]] && continue
 
     dst="$CONFIG_DST/$name"
 

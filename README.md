@@ -3,8 +3,8 @@ Based around pixel art and dark theming
 
 Still a WIP will update when finished.
 
-TODO: Need to add bash for installing "Departure Mono" font
-
-TODO: Need to add wallpapers folder
+Preferred font is "Departure Mono" found here https://departuremono.com/
 
 TODO: Trim nvim to be minimal
+
+TODO: setup dynamic pathing for hyprpaper also possible a bash script to change.
