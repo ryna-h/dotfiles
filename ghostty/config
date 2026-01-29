@@ -1,6 +1,6 @@
 # ryna Ghostty config
 # ==========================
-title = "Ghostty"
+title = Ghostty
 
 confirm-close-surface = false
 
