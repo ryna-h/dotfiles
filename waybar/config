@@ -2,14 +2,14 @@
 //
 {
     "position":       "top",
-    "modules-left":   ["hyprland/workspaces", "hyprland/window"],
+    "modules-left":   ["hyprland/workspaces", "memory", "cpu"],
     "modules-center": ["clock"],
     "modules-right":  ["bluetooth", "pulseaudio", "network", "battery"],
 
   "hyprland/workspaces": {
 	  "format": "{name}",
     "persistent-workspaces": {
-      "*": 4, // workspaces to always display
+      "*": 4 // workspaces to always display
     }
   },
 
@@ -17,8 +17,17 @@
   "hyprland/window":{
     "format": " | {title}",
     "max-length": 50
+
   },
-  
+  "cpu": {
+    "interval": 10,
+    "format": "| CPU:{}%"
+  },
+
+  "memory": {
+    "interval": 30,
+    "format": "| MEM:{}% "
+  },
 
   "clock": {
     "interval": 60,

@@ -6,9 +6,9 @@
 " If you would like to use another vi clone such as Elvis or Vile
 " you will need to change this setting.
 if executable('nvim')
-    set vicmd=nvim
-elseif executable('vim')
     set vicmd=vim
+elseif executable('nano')
+    set vicmd=nano
 elseif executable('elvis')
     set vicmd=elvis\ -G\ termcap
 elseif executable('vile')
