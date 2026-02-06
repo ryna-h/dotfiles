@@ -4,6 +4,8 @@ Plug 'joshdick/onedark.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'prabirshrestha/async.vim'
 Plug 'prabirshrestha/vim-lsp'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
@@ -34,4 +36,4 @@ colorscheme onedark
 
 "remaps
 let mapleader = " "
-"nnoremap ; :
+nnoremap <leader>ff :Files<CR>
